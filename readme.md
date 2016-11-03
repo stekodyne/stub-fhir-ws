@@ -1,4 +1,4 @@
-# Project Title
+# stub-fhir-ws
 
 A stub end-point to serve up JSON FHIR documents.
 
