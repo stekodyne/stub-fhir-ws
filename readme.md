@@ -16,19 +16,20 @@ Maven 3
 Java 8 JDK
 ```
 
-### Installing
-
-
-```
-git clone <project>
-```
-
-
 ## Running
  
 ### Starting the Application
 
+#### Using Docker
 
+```
+Docker/build.sh
+docker run --rm -ti -p 8080:8080 -P csra/stub-fhir-ws
+
+```
+
+
+#### Standalone
 ```
 mvn package && java -jar target/fhir-ws-0.0.1-SNAPSHOT.jar
 ```
